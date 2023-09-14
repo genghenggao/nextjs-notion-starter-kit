@@ -1,25 +1,39 @@
+/*
+ * @Description: henggao_note
+ * @version: v1.0.0
+ * @Date: 2023-09-14 08:30:38
+ * @LastEditors: henggao
+ * @LastEditTime: 2023-09-14 08:38:06
+ */
+/*
+ * @Description: henggao_note
+ * @version: v1.0.0
+ * @Date: 2023-09-14 08:30:38
+ * @LastEditors: henggao
+ * @LastEditTime: 2023-09-14 08:31:35
+ */
 import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '7875426197cf461698809def95960ebf',
+  rootNotionPageId: '5a5f47726906499684f172c916bf4a37',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Next.js Notion Starter Kit',
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
-  author: 'Travis Fischer',
+  name: 'Henggao Blog',
+  domain: 'blog.genghenggao.top',
+  author: 'Henggao Geng',
 
   // open graph metadata (optional)
-  description: 'Example Next.js Notion Starter Kit Site',
+  description: 'henggao',
 
   // social usernames (optional)
-  twitter: 'transitive_bs',
-  github: 'transitive-bullshit',
-  linkedin: 'fisch2',
+  twitter: 'genghenggao',
+  github: 'genghenggao',
+  linkedin: '',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
